@@ -1,0 +1,9 @@
+target
+out.dat
+out.txt
+test.txt
+bin
+.classpath
+.settings/
+.project
+

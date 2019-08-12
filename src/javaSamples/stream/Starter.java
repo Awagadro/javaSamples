@@ -2,6 +2,7 @@ package javaSamples.stream;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 public class Starter {
@@ -17,7 +18,9 @@ public class Starter {
 				.filter(g -> g > 1.5)
 				.collect(Collectors.toList());
 	
-		grades.stream().forEach(g ->System.out.println(g));
+		grades.stream().forEach(new MyPrint());
+		
+		System.out.println();
 		
 		persons.stream()
 		.map(p->p.getName())
@@ -27,4 +30,12 @@ public class Starter {
 	
 	}
 
+}
+
+class MyPrint implements Consumer <Double>{
+	
+	@Override
+	public void accept (Double g){
+		System.out.println(g);
+	}
 }

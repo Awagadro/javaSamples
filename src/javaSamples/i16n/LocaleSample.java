@@ -1,4 +1,4 @@
-package javaSamples;
+package javaSamples.i16n;
 
 import java.util.Locale;
 

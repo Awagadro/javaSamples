@@ -4,20 +4,21 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class HamletInternational {
+public class HamletInternationalStarter {
 
 	public static void main(String[] args) {
+
 		for (int i = 0; i < 3; i++) {
 			System.out.println("1 — английский /n 2 — белорусский \n любой — русский ");
-			char c = 0;
+			// char c = 0;
 			try {
-				c = (char) System.in.read();
+				i = (char) System.in.read();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 			String country = "";
 			String language = "";
-			switch (c) {
+			switch (i) {
 			case '1':
 				country = "US";
 				language = "EN";

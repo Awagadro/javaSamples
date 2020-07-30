@@ -2,7 +2,7 @@ package javaSamples.blinov.ch1;
 
 import java.util.Scanner;
 
-public class SayHi {
+public class ScanerSayHi {
 
 	public static void main(String[] args) {
 

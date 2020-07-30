@@ -1,4 +1,4 @@
-package javaSamples.blinov.ch7;
+package javaSamples.blinov.ch7.String;
 
 import java.util.Arrays;
 import java.util.regex.Pattern;

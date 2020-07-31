@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ReadSymbol {
+public class ReadFileInputStream {
 	// чтение по одному символу (байту) из потока ввода
 	public static void main(String[] args) {
 		String file = "src\\javaSamples\\blinov\\ch9\\io\\data\\file.txt";

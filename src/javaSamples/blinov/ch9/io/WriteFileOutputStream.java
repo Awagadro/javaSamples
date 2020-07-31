@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class WriteSymbol {
+public class WriteFileOutputStream {
 
 	public static void main(String[] args) {
 		String sArray[] = { "2021 ", "Java EE 8" };

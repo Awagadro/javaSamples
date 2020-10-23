@@ -31,7 +31,7 @@ public class FileTest {
 			}
 		}
 		// в объект типа File помещается каталог/директория
-		// в корне проекта должен быть создан каталог com.learn с несколькими файлами
+		// в корне проекта должен быть создан каталог data с несколькими файлами
 		File dir = new File("src\\javaSamples\\blinov\\ch9\\io\\data");
 		if (dir.exists() && dir.isDirectory()) { /* если объект является каталогом и он существует */
 			System.out.println("каталог " + dir.getName() + " существует");

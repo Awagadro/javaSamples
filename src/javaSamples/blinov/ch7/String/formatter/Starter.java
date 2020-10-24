@@ -1,4 +1,4 @@
-package javaSamples.formatter;
+package javaSamples.blinov.ch7.String.formatter;
 
 import java.io.File;
 import java.io.IOException;

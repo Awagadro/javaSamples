@@ -11,7 +11,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 public class ObjectSerializator {
-	public boolean serealization(StudentObject so, String fileName) {
+	public boolean serealization(ObjectStudent so, String fileName) {
 		boolean flag = false;
 		File f = new File(fileName);
 		try (FileOutputStream fos = new FileOutputStream(f); ObjectOutputStream oos = new ObjectOutputStream(fos);) {
@@ -23,10 +23,10 @@ public class ObjectSerializator {
 		return flag;
 	}
 
-	public StudentObject deserialization(String fileName) throws InvalidObjectException {
+	public ObjectStudent deserialization(String fileName) throws InvalidObjectException {
 		File fr = new File(fileName);
 		try (FileInputStream fis = new FileInputStream(fr); ObjectInputStream ois = new ObjectInputStream(fis);) {
-			StudentObject so = (StudentObject) ois.readObject(); // десериализация
+			ObjectStudent so = (ObjectStudent) ois.readObject(); // десериализация
 			return so;
 		} catch (ClassNotFoundException e) {
 			System.err.println("Класс не существует" + e);

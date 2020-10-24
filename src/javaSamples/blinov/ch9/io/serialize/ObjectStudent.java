@@ -2,14 +2,14 @@ package javaSamples.blinov.ch9.io.serialize;
 
 import java.io.Serializable;
 
-public class StudentObject implements Serializable {
+public class ObjectStudent implements Serializable {
 	protected static String faculty;
 	private String name;
 	private int id;
 	private transient String password;
 	private static final long serialVersionUID = 1L;
 
-	public StudentObject(String nameOfFaculty, String name, int id, String password) {
+	public ObjectStudent(String nameOfFaculty, String name, int id, String password) {
 		faculty = nameOfFaculty;
 		this.name = name;
 		this.id = id;

@@ -1,7 +1,6 @@
 package javaSamples.blinov.ch9.io;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 

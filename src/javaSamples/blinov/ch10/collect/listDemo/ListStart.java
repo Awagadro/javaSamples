@@ -1,8 +1,8 @@
-package javaSamples.blinov.ch10.collect;
+package javaSamples.blinov.ch10.collect.listDemo;
 
 import java.util.ArrayList;
 
-public class CollectionDemo {
+public class ListStart {
 
 	public static void main(String[] args) {
 		ArrayList<String> list = new ArrayList<>();

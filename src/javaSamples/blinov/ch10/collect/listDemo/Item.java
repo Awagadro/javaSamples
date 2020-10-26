@@ -1,4 +1,4 @@
-package javaSamples.blinov.ch10.collect.eCommerce;
+package javaSamples.blinov.ch10.collect.listDemo;
 
 public class Item {
 	private int itemId;

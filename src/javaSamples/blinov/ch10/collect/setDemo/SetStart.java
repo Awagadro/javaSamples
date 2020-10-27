@@ -30,7 +30,7 @@ public class SetStart {
 		TreeSet<String> ts = new TreeSet<>(words);
 		System.out.println(ts);
 		long totalTime = System.nanoTime() - callTime;
-		System.out.println("Различных слов: " + words.size() + ", " + totalTime + " нановекунд");
+		System.out.println("Различных слов: " + words.size() + ", " + totalTime + " наносекунд");
 	}
 
 }

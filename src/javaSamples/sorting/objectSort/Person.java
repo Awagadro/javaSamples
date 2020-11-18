@@ -1,8 +1,11 @@
-package javaSamples.streamApiSample;
+package javaSamples.sorting.objectSort;
 
 public class Person {
-	String name;
-	int age;
+	private String name;
+	private int age;
+
+	public Person() {
+	}
 
 	public Person(String name, int age) {
 		this.name = name;

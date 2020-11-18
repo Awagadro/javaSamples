@@ -1,4 +1,4 @@
-package javaSamples.streamApiSample;
+package javaSamples.stream.streamApiSample;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,9 +22,6 @@ public class Starter {
 		for (Person person : persons) {
 			System.out.println(person);
 		}
-		
-		// delete persons under 18 & over 30
-		
-		urr.stream().filter((p) -> p.getAge() < 18 || p.getAge() > 30);
+
 	}
 }

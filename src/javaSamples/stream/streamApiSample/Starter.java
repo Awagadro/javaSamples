@@ -1,7 +1,9 @@
 package javaSamples.stream.streamApiSample;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Starter {
@@ -22,6 +24,10 @@ public class Starter {
 		for (Person person : persons) {
 			System.out.println(person);
 		}
+
+		Map<Integer, String> m = new HashMap<Integer, String>();
+
+		m = urr.stream().collect(Collectors.toMap(Person::getAge, Person::getName));
 
 	}
 }

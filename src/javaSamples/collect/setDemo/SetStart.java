@@ -1,4 +1,4 @@
-package javaSamples.blinov.ch10.collect.setDemo;
+package javaSamples.collect.setDemo;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,8 +12,8 @@ public class SetStart {
 	public static void main(String[] args) {
 		HashSet<String> words = new HashSet<>(100);
 		long callTime = System.nanoTime();
-		try (Scanner scan = new Scanner(new File("src\\javaSamples\\blinov\\ch10\\collect\\data\\text.txt"))) {
-			// src\javaSamples\blinov\ch10\collect\data
+		try (Scanner scan = new Scanner(new File("src\\javaSamples\\data\\text.txt"))) {
+			// src\javaSamples\data
 			scan.useDelimiter("[^А-я]+");
 			while (scan.hasNext()) {
 				String word = scan.next();

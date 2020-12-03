@@ -1,4 +1,4 @@
-package javaSamples.blinov.ch10.collect.listDemo;
+package javaSamples.collect.listDemo;
 
 import java.util.Iterator;
 import java.util.List;

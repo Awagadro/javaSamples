@@ -1,4 +1,4 @@
-package javaSamples.blinov.ch10.collect.listDemo;
+package javaSamples.collect.listDemo;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ public class ListStart {
 		list.add("Java");
 		list.add("Java FX2");
 		String res = list.get(0);
-		System.out.println("озиция №0 из списка : " + res);
+		System.out.println("Позиция №0 из списка : " + res);
 		System.out.println(list);
 	}
 

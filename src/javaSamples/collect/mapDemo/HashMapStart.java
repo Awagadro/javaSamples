@@ -1,4 +1,4 @@
-package javaSamples.blinov.ch10.collect.mapDemo;
+package javaSamples.collect.mapDemo;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package javaSamples.instance;
+package javaSamples.reflect.replacingConstructor;
 
 public class First {
 	private String name = "12345";

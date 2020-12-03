@@ -5,8 +5,11 @@ import java.lang.reflect.Field;
 public class Starter {
 
 	public static void main(String[] args) throws Exception {
+		// получаем доступ к приватным полям класса и суперкласса
 		Class<?> cl1 = Class.forName("javaSamples.reflect.Second");
-		Second o = (Second) cl1.newInstance();
+		// Class<?> cl1 = Second.class; // тоже правильно
+		Second o = (Second) cl1.getDeclaredConstructor().newInstance();
+
 		Field field = cl1.getSuperclass().getDeclaredField("name");
 		field.setAccessible(true);
 		field.set(o, "name");

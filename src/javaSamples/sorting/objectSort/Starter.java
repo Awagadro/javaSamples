@@ -33,11 +33,11 @@ public class Starter {
 				return p1.getName().compareTo(p2.getName());
 			}
 		};
-
+		System.out.println("Sorting...ByAge");
 		Collections.sort(persons, compareByAge); // sorting by age
 		persons.stream().forEach(n -> System.out.println(n));
-		System.out.println("Sorting...");
 
+		System.out.println("Sorting...ByName");
 		Collections.sort(persons, compareByName); // sorting by name
 		persons.stream().forEach(n -> System.out.println(n));
 

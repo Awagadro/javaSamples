@@ -1,4 +1,4 @@
-package javaSamples.blinov.ch1;
+package javaSamples.scannerSamples;
 
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
@@ -6,7 +6,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class GetRandomVal {
 
 	public static void main(String[] args) {
-
+// получить заданное количество случайных целых чисел
 		System.out.println("Введите число и нажмите <Enter> ");
 		Scanner scan = new Scanner(System.in);
 		try {

@@ -1,10 +1,11 @@
-package javaSamples.car;
+package javaSamples.array;
 
 public class StarterIntFindNumber {
 
 	public static void main(String[] args) {
+		// находит индекс числа из массива
 		int[] array = { 1, 2, 3, 4, 5 };
-		int j = 7;
+		int j = 7; // вернет -1, т.к. в массиве нет числа 7
 
 		int myIndex = findNumber(array, j);
 		System.out.println(myIndex);

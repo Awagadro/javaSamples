@@ -1,9 +1,10 @@
-package javaSamples.blinov.ch1;
+package javaSamples.scannerSamples;
 
 import java.util.Scanner;
 
 public class SumCalc {
 	public static void main(String[] args) {
+		// ввод с консоли целых чисел с их суммированием
 		int sum = 0;
 		System.out.println("Введите число и нажмите <Enter> ");
 		Scanner scan = new Scanner(System.in);

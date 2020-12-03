@@ -1,9 +1,9 @@
-package javaSamples.blinov.ch1;
+package javaSamples.scannerSamples;
 
 import java.util.Scanner;
 
 public class CheckPassword {
-
+// проверка пароля
 	public static void main(String[] args) {
 		String correctPass = "12345Gg";
 

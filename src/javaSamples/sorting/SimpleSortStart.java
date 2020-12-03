@@ -9,8 +9,8 @@ public class SimpleSortStart {
 
 		// int[] sorted = bubleSort(array);// Пузырьковая сортировка
 		// int[] sorted = selectionSort(array); // Сортировка выбором
-		int[] sorted = insertionSort(array); // Сортировка вставками
-		// int[] sorted = shuttleSort(array); // челночная сортировка
+		// int[] sorted = insertionSort(array); // Сортировка вставками
+		int[] sorted = shuttleSort(array); // челночная сортировка
 
 		System.out.println("Sorted array: " + Arrays.toString(sorted));
 

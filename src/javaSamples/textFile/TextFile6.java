@@ -15,7 +15,7 @@ import java.util.SortedMap;
 
 public class TextFile6 {
 	public static void main(String[] args) {
-
+// несколько способов перпедать текстовый файл в List<String>
 		final String fileName = "test.txt";
 //		List<String> list = readList_6(fileName);
 //		List<String> list = readList_7(fileName);

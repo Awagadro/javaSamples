@@ -1,4 +1,4 @@
-package javaSamples.car;
+package javaSamples.interfaceUse;
 
 public class Engine20 implements IEngine {
 

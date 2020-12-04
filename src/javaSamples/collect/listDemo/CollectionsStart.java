@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class ListStart2 {
+public class CollectionsStart {
 	public static void main(String[] args) {
 		Comparator<Integer> comp = new Comparator<Integer>() {
 			@Override
@@ -16,13 +16,13 @@ public class ListStart2 {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 
 		Collections.addAll(list, 1, 2, 3, 4, 5);
-		Collections.shuffle(list);
+		Collections.shuffle(list); // перемешать
 		print(list);
-		Collections.sort(list);
+		Collections.sort(list); // отсортировать
 		print(list);
-		Collections.reverse(list);
+		Collections.reverse(list); // поменять порядок
 		print(list);
-		Collections.rotate(list, 3);
+		Collections.rotate(list, 3); // начиная с указанной позиции переместить в начало, остальное добавить в конец
 		print(list);
 		System.out.println("min: " + Collections.min(list, comp));
 		System.out.println("max: " + Collections.max(list, comp));
